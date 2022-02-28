@@ -1,0 +1,264 @@
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* header section */
+
+.responsive-menu {
+	display: none !important;
+}
+
+.header-section{
+    background-color: #22c3a3;
+}
+.left-content{
+    width: 30%;
+    float: left;
+    margin-bottom: 0;
+}
+.left-content a{
+    text-decoration: none;
+}
+.left-content h2 {
+    color: #fff;
+    line-height: 58px;
+    margin-bottom: 0;
+}
+.right-menu{
+    width: 70%;
+    float: right;
+}
+.right-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.right-menu ul li{
+    display: inline-block;
+}
+.right-menu ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 66px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    transition: .5s;
+}
+.right-menu ul li a:hover{
+    color: #043f29;
+}
+.right-menu ul li a:last-child{
+    padding-right: 0;
+}
+
+
+/* banner section */
+
+.banner-section{
+    background-image: url("https://i.ibb.co/K0HXRmt/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+.banner-content h2 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+.banner-content h6 {
+    color: #d2f3ed;
+    font-size: 18px;
+}
+.banner-content a {
+    color: #e6f8f5;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid #e6f8f5;
+    padding: 7px 23px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+}
+.banner-content a:hover{
+    background-color: #043f29;
+    border: none;
+    border: 2px solid transparent;
+}
+
+/* service section */
+
+.service-section{
+    padding: 80px 0;
+    border-bottom: 2px solid #00bb95;
+}
+.our-service h2{
+    font-size: 34px;
+    padding-bottom: 13px;
+}
+.our-service p{
+    color: #858585;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.service-box {
+    margin-top: 100px;
+}
+.service-box .box-1 {
+    float: left;
+    width: 25%;
+}
+.service-box .box-1 span {
+    font-size: 35px;
+    color: #0dbf9b;
+}
+.service-box .box-1 h4{
+    padding-top: 15px;
+    color: #656565;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.service-box .box-1 p {
+    max-width: 215px;
+    margin: auto;
+    color: #929292;
+    padding-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* About Section */
+
+.about-section{
+    padding: 60px 0;
+}
+.about h2 {
+    color: #555555;
+    font-size: 34px;
+}
+.about p{
+    color: #808080;
+    padding: 18px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-content {
+    padding-top: 20px;
+}
+.about-left{
+    float: left;
+    width: 45%;
+}
+.about-right {
+    float: right;
+    width: 48%;
+    padding-top: 10px;
+}
+.about-right h5{
+    color: #6d6d6d;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-right p {
+    color: rgb(128, 128, 128);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Contact Section */
+
+.contact-section{
+    background-color: #f6f6f6;
+    padding: 70px 0;
+}
+.contact h2{
+    color: #545454;
+    font-size: 34px;
+}
+.contact p {
+    color: #757575;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.contact-us{
+    margin-top: 60px;
+}
+
+.contact-us .l-m-c{
+    float: left;
+    width: 33%;
+}
+.contact-us .l-m-c span{
+    color: #0dbf9b;
+}
+.contact-us .l-m-c h6 {
+    color: #757575;
+    margin-top: 8px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
+
+/* footer-1 section */
+
+.footer-1{
+    background-color: #0dbf9b;
+}
+
+.footer-1 ul li{
+    display: inline-block;
+}
+.footer-1 ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 0px;
+    font-size: 22px;
+    margin-right: 20px;
+    transition: .5s;
+}
+.footer-1 ul li a:hover{
+    color: #0a6c1eb7;
+}
+
+/* footer -2 */
+
+.footer-2{
+    background-color: #222222;
+    margin-top: -16px;
+}
+.footer-2 h6{
+    color: #565656;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* End */
